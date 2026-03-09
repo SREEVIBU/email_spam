@@ -62,7 +62,7 @@ def main():
         st.error(f"Could not train model: {exc}")
         st.stop()
 
-   
+    
 
     user_input = st.text_area(
         "Paste an email/message to classify",
