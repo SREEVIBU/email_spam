@@ -62,7 +62,7 @@ def main():
         st.error(f"Could not train model: {exc}")
         st.stop()
 
-    st.metric("Validation Accuracy", f"{accuracy * 100:.2f}%")
+   
 
     user_input = st.text_area(
         "Paste an email/message to classify",
